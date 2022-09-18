@@ -1,0 +1,9 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsdom": "^20.0.0",
+    "mongodb": "^4.9.1",
+    "request": "^2.88.2"
+  }
+}

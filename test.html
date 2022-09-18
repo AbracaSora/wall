@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>表白墙</title>
+</head>
+<body>
+    <h1 style="text-align:center;color:blueviolet">
+        表白墙
+    </h1>
+    <form target="_blank" style="text-align:center" name="ExpressWall" action="mongodb.js" method="get">
+        <label for="Express">我想说：</label>
+        <br/>
+        <textarea id="Express" name="Express" style="
+               width: 40%;
+               height: 150px;
+               padding: 6px 20px;
+               box-sizing: border-box;
+               border: 2px solid #ff67e7;
+               border-radius: 4px;
+               background-color: #66CCFF;
+               resize: none; ">
+        </textarea>
+        <br/>
+        <label for="User">表白人：</label>
+        <input type="text" id="User" name="User">
+        <br/>
+        <input type="submit" id="submit" value="提交">
+    </form>
+</body>
